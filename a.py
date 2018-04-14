@@ -14,8 +14,10 @@ print(good(1)(9))
 def more(n): return lambda x,y: x + y + n
 ss = lambda x,y: x + y
 print(ss(9,8))
-
 print(ss(9,81))
+
+
+
 
 
 
