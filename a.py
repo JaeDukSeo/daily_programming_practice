@@ -11,7 +11,8 @@ def good(n):
     return lambda x: x + n
 print(good(1)(9))
 
-
+def more(n): return lambda x,y: x + y + n
+print(more(3,2)(8))
 
 
 # -- end code --
