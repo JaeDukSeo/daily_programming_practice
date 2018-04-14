@@ -12,7 +12,7 @@ def good(n):
 print(good(1)(9))
 
 def more(n): return lambda x,y: x + y + n
-print(more(3,2)(8))
-
+ss = lambda x,y: x + y
+print(ss(9,8))
 
 # -- end code --
